@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CampusBite</title>
+        <link rel="stylesheet" href="login.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="full-page">
+            <div class="navbar">
+                <div>
+                    <a href='login.html'>CampusBite</a>
+                </div>
+                <nav>
+                     <ul id='navitems'>
+                         <li><a href='#'>Home</a></li>
+                         <li><a href='#'>Category</a></li>
+                         <li><a href='#'>Orders</a></li>
+                         <li><a href='#'>Review</a></li>
+                         <li><button class="loginbutton" onclick="login()"
+                                 style="width:auto;">LogIn</button></li>
+                         <li><button class="signupbutton" onclick="signup()"
+                               style="width:auto;">SignUp</button> </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="form" class='page'>
+                <div class="form-box">
+                    <div class='button-box'>
+                        <div id='btn'></div>
+                        <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                        <button type='button'onclick='signup()'class='toggle-btn'>SignUp</button>
+                    </div>
+                    <div id='loginid'class='login-page'>
+                        <form id='login' class='input-group-login'>
+                            <div class='input-box'>
+                                <i class="bx bx-user"></i>
+                                <input type='text'class='input-field'placeholder='Email Id' required >
+                            </div>
+                            <div class='input-box'>
+                                <i class="bx bx-lock-alt"></i>
+                                <input type='password'class='input-field'placeholder='Enter Password' required>
+                            </div>
+                            <input type='checkbox'class='check-box'><span>Remember Password</span>
+                            <button type='submit'class='submit-btn'>Log in</button>
+                        </form>
+                    </div>
+                    <div id='signupid'class='signup-page'>
+                        <form id='signup' class='input-group-signup'>
+                            <div class='input-box'>
+                                <i class="bx bx-user"></i>
+                                <input type='text'class='input-field' placeholder='First Name' required>
+                            </div>
+                            <div class='input-box'>
+                                <i class="bx bx-user"></i>
+                                <input type='text'class='input-field'placeholder='Last Name ' required>
+                            </div>
+                            <div class='input-box'>
+                                <i class="bx bx-envelope"></i>
+                                <input type='email'class='input-field'placeholder='Email Id' required>
+                            </div>
+                            <div class='input-box'>
+                                <i class="bx bx-lock-alt"></i>
+                                <input type='password'class='input-field'placeholder='Enter Password' required>
+                            </div>
+                            <div class='input-box'>
+                                <i class="bx bx-lock-alt"></i>
+                                <input type='password'class='input-field'placeholder='Confirm Password'  required>
+                            </div>
+                            <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+                            <button type='submit'class='submit-btn'>Register</button>
+                        </form> 
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <script src="login.js"></script>
+    </body>
+</html>
