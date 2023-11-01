@@ -2,7 +2,7 @@ function showLoader() {
     const loaderContainer = document.querySelector('.loader-container');
     loaderContainer.style.display = 'block';
 
-    const displayDuration = 2000;
+    const displayDuration = 500;
 
     setTimeout(function() {
         

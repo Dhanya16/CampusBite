@@ -1,0 +1,19 @@
+.testimonial-box {
+    border: 2px solid #42251D;
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin: 10px; /* Margin between testimonial boxes */
+    background: rgba(66, 37, 29, 0.2);
+    box-shadow: 0px 4px 6px rgba(2, 37, 114, 0.3);
+    text-align: center; /* Center-align content */
+}
+
+.testimonial-box p {
+    font-size: 16px; /* Testimonial text font size */
+    margin-bottom: 10px; /* Spacing between text and author */
+}
+
+.testimonial-box cite {
+    font-style: italic; /* Italicize author's name */
+    font-size: 14px; /* Author's name font size */
+}
