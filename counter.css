@@ -1,0 +1,110 @@
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: grey;
+}
+
+.navbar {
+    background-color:black;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.profile-icon {
+    width: 60px;
+    height: 60px;
+    padding-top: 4px;
+}
+
+.profile-icon img {
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding-right: 22px;
+}
+
+a:hover {
+    color: blue;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+#counter {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#content button {
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#content button:hover {
+    background-color: white;
+    color: green;
+}
+
+#section1{
+    position: fixed;
+}
+
+#section2{
+    margin-left: 33.5%;
+}
+
+#section1 img {
+    width: 100%;
+    height: 290px;
+    margin: auto;
+}
+
+#section1 #image {
+    margin: auto;
+}
+
+#section1 #addbtn{
+    margin-left: 70%;
+    margin-top: -16%;
+}
+
+#section2 #billbtn{
+    margin-left: 90%;
+}
+
+#section1 label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#section2 td{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+#section2 #total{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#section1 #qty{
+    width: 150px;
+}
