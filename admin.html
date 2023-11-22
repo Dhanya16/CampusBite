@@ -30,6 +30,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#" id="editMenu"><i class="bi bi-pencil-fill"></i> Edit Menu</a>
                 </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-sm" id="logoutbtn">LogOut</button>
+                </li>
             </ul>
         </div>
     </nav>
@@ -108,11 +111,11 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Item 7</td>
+                        <td>Item 8</td>
                         <td>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="checkbox7" checked>
-                                <label class="form-check-label" for="checkbox7">Available</label>
+                                <input class="form-check-input" type="checkbox" id="checkbox8" checked>
+                                <label class="form-check-label" for="checkbox8">Available</label>
                             </div>
                         </td>
                     </tr>
@@ -176,9 +179,56 @@
                     </tr>
                 </tbody>
             </table>
-            <button type="button" class="btn" id="addbtn"><i class="bi bi-plus-circle-fill"></i> Add Item</button>
+            <button type="button" class="btn btn-sm" data-bs-toggle="modal" data-bs-target="#addmodal"><i
+                    class="bi bi-plus-circle-fill"></i> Add Item</button>
         </div>
     </div>
+    <div class="modal fade" id="addmodal" tabindex="-1" aria-labelledby="addmodalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addtitle">New Item Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-7">
+                        <label for="item-name" class="col-form-label">Item Name</label>
+                        <input type="text" class="form-control" id="item-name"
+                            placeholder="Enter item name...">
+                    </div>
+                    <div class="mb-7">
+                        <label for="item-id" class="col-form-label">Item Id</label>
+                        <input type="text" class="form-control" id="item-id" placeholder="Enter item id...">
+                    </div>
+                    <div class="mb-7">
+                        <label for="item-price" class="col-form-label">Price</label>
+                        <input type="number" class="form-control" id="item-price"
+                            placeholder="Enter item price...">
+                    </div>
+                    <div class="mb-7">
+                        <label for="item-category" class="col-form-label">Category</label>
+                        <input type="text" class="form-control" id="item-category"
+                            placeholder="Enter item category...">
+                    </div>
+                    <div class="mb-7">
+                        <label for="item-image" class="col-form-label">Item Image</label>
+                        <input type="file" class="form-control" id="item-image">
+                    </div>
+                    <div class="mb-7">
+                        <label for="item-description" class="col-form-label">Description</label>
+                        <textarea class="form-control" id="item-description"
+                            placeholder="Enter item description here..."></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Add Item</button>
+            </div>
+        </div>
+    </div>
+</div>
     <div id="ordersContent" style="display: none;">
         <div class="container">
             <h2>Orders</h2>
