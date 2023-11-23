@@ -28,7 +28,8 @@
                     <a class="nav-link" href="#" id="orders"><i class="bi bi-cart-fill"></i> Orders</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" id="editMenu"><i class="bi bi-pencil-fill"></i> Edit Menu</a>
+                    <a class="nav-link" href="#editMenuContent" id="editMenu"><i class="bi bi-pencil-fill"></i> Edit
+                        Menu</a>
                 </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-sm" id="logoutbtn">LogOut</button>
@@ -183,52 +184,88 @@
                     class="bi bi-plus-circle-fill"></i> Add Item</button>
         </div>
     </div>
-    <div class="modal fade" id="addmodal" tabindex="-1" aria-labelledby="addmodalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="addtitle">New Item Details</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-7">
-                        <label for="item-name" class="col-form-label">Item Name</label>
-                        <input type="text" class="form-control" id="item-name"
-                            placeholder="Enter item name...">
-                    </div>
-                    <div class="mb-7">
-                        <label for="item-id" class="col-form-label">Item Id</label>
-                        <input type="text" class="form-control" id="item-id" placeholder="Enter item id...">
-                    </div>
-                    <div class="mb-7">
-                        <label for="item-price" class="col-form-label">Price</label>
-                        <input type="number" class="form-control" id="item-price"
-                            placeholder="Enter item price...">
-                    </div>
-                    <div class="mb-7">
-                        <label for="item-category" class="col-form-label">Category</label>
-                        <input type="text" class="form-control" id="item-category"
-                            placeholder="Enter item category...">
-                    </div>
-                    <div class="mb-7">
-                        <label for="item-image" class="col-form-label">Item Image</label>
-                        <input type="file" class="form-control" id="item-image">
-                    </div>
-                    <div class="mb-7">
-                        <label for="item-description" class="col-form-label">Description</label>
-                        <textarea class="form-control" id="item-description"
-                            placeholder="Enter item description here..."></textarea>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Add Item</button>
+    <div class="modal fade" id="addmodal" tabindex="-1" aria-labelledby="addmodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addtitle">Choose to add</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <button type="button" class="btn btn-sm" data-bs-toggle="modal" data-bs-target="#add1modal">Add New
+                        Item</button>
+                    <button type="button" class="btn btn-sm" data-bs-toggle="modal" data-bs-target="#add2modal" style="margin-left:185px;">Add
+                        Exiting Item</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
+    <div class="modal fade" id="add2modal" tabindex="-1" aria-labelledby="add2modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="add2title">Item Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-7">
+                            <label for="item-id1" class="col-form-label">Item ID</label>
+                            <input type="number" class="form-control" id="item-id1" placeholder="Enter item id...">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Add Item</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="add1modal" tabindex="-1" aria-labelledby="add1modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="add1title">New Item Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-7">
+                            <label for="item-name" class="col-form-label">Item Name</label>
+                            <input type="text" class="form-control" id="item-name" placeholder="Enter item name...">
+                        </div>
+                        <div class="mb-7">
+                            <label for="item-id" class="col-form-label">Item Id</label>
+                            <input type="text" class="form-control" id="item-id" placeholder="Enter item id...">
+                        </div>
+                        <div class="mb-7">
+                            <label for="item-price" class="col-form-label">Price</label>
+                            <input type="number" class="form-control" id="item-price" placeholder="Enter item price...">
+                        </div>
+                        <div class="mb-7">
+                            <label for="item-category" class="col-form-label">Category</label>
+                            <input type="text" class="form-control" id="item-category"
+                                placeholder="Enter item category...">
+                        </div>
+                        <div class="mb-7">
+                            <label for="item-image" class="col-form-label">Item Image</label>
+                            <input type="file" class="form-control" id="item-image">
+                        </div>
+                        <div class="mb-7">
+                            <label for="item-description" class="col-form-label">Description</label>
+                            <textarea class="form-control" id="item-description"
+                                placeholder="Enter item description here..."></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Add Item</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="ordersContent" style="display: none;">
         <div class="container">
             <h2>Orders</h2>
