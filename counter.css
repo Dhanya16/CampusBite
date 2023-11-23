@@ -29,11 +29,25 @@ a {
     font-size: 20px;
     color: white;
     cursor: pointer;
-    padding-right: 22px;
+   /* padding-right: 22px;*/
+   padding-left: 70%;
 }
 
 a:hover {
     color: blue;
+}
+
+#logoutbtn {
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+#logoutbtn:hover {
+    color: white;
+    background-color: black;
 }
 
 #content {
@@ -43,8 +57,8 @@ a:hover {
 }
 
 #counter {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 4px;
+    padding-right: 11px;
 }
 
 #content button {
@@ -66,7 +80,7 @@ a:hover {
 }
 
 #section2{
-    margin-left: 33.5%;
+    margin-left: 34%;
 }
 
 #section1 img {
