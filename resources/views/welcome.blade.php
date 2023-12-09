@@ -18,7 +18,8 @@
         <link href="css/footer.css" rel="stylesheet">
         <style>
             body{
-                background:linear-gradient(to right,#FDDA80, #F9E9BD);
+                background:linear-gradient(to right,#190F0E,#42251D);
+                text-align:justify;
             }
         </style>
         <!--CSS files ends-->
@@ -26,13 +27,13 @@
     </head>
     <body>
 
-        <!--Loader-->
+        <!--Loader--
         <div class="loader-container">
             <div class="loader">
                 <img src="images/logo.png" alt="Loading...">
             </div>
         </div>
-        <!--Loader ends-->
+        --Loader ends-->
 
         <!--Header section-->
         <header>
@@ -57,19 +58,31 @@
                                     Categories
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="categoriesDropdown">
-                                    <a class="dropdown-item" href="login">Category 1</a>
-                                    <a class="dropdown-item" href="login">Category 2</a>
-                                    <a class="dropdown-item" href="login">Category 3</a>
+                                    <a class="dropdown-item" href="login">Chinese</a>
+                                    <a class="dropdown-item" href="login">Chaats</a>
+                                    <a class="dropdown-item" href="login">Ice Cream</a>
+                                    <a class="dropdown-item" href="login">Meal & Pulao</a>
+                                    <a class="dropdown-item" href="login">Juice</a>
+                                    <a class="dropdown-item" href="login">Milkshakes</a>
+                                    <a class="dropdown-item" href="login">South Indian Snacks</a>
+                                    <a class="dropdown-item" href="login">Snacks</a>
+                                    <a class="dropdown-item" href="login">Dosa</a>
+                                    <a class="dropdown-item" href="login">Special Dosa</a>
+                                    <a class="dropdown-item" href="login">Sweets</a>
+                                    <a class="dropdown-item" href="login">Gravys</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="login">Order</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="login">About us</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link mr-5" href="login">Reviews</a>
                             </li>
                             <li class="nav-item">
-                                <a class="btn mr-2 signup" href="login">Sign up/Log in</a>
+                                <a class="btn ml-4 swiggy-button" href="login">Sign up/Log in</a>
                             </li><br>
                         </ul>
                     </div>
@@ -81,10 +94,10 @@
         <!--Hero section-->
         <div class="container-fluid position-relative p-0">
             <div class="img-container" style="position: relative; overflow: hidden;">
-                <img src="images/overlay.jpg" alt="Notebook" class="img-fluid" style="width:100%; height:auto; max-height:400px;" width="100%">
+                <img src="images/img1.jpg" alt="Notebook" class="img-fluid" style="width:100%; height:auto; max-height:500px;" width="100%">
                 <div class="content position-absolute w-100 text-center" style="top: 50%; transform: translateY(-50%); color: white;">
-                    <h1 id="fade-heading" class="fade-in" style="font-weight: bold; font-size: 5vw; max-font-size: 100px;">CampusBite</h1>
-                    <p id="fade-paragraph" class="fade-in" style="font-size: 3vw; max-font-size: 50px;">Order the food of your choice</p>
+                    <h1 id="fade-heading" class="fade-in" style="font-weight: bold; font-size: 5vw; max-font-size: 100px;padding-left:50%;">CampusBite</h1>
+                    <p id="fade-paragraph" class="fade-in" style="font-size: 3vw; max-font-size: 50px;padding-left:50%;">Order the food of your choice</p>
                 </div>
             </div>
         </div>
@@ -93,13 +106,13 @@
         <!--Featured categories-->
         <section class="featured-categories">
             <div class="container">
-                <h1 style="color:#42251D;font-size:36px;">Featured Categories</h1>
+                <h1 style="color:white;font-size:36px;">Featured Categories</h1>
                 <div class="row">
                     <div class="col-md-3">
                         <a href="login">
                             <div class="circle">
                                 <div class="circle-content">
-                                    <img src="images/cat1_juice.png" alt="Category 1" style="border:4px solid #42251D;"><br>
+                                    <img src="images/cat1_juice.png" alt="Category 1" style="border:4px solid white;"><br>
                                     <button class="btn swiggy-button">Juice</button>
                                 </div>
                             </div>
@@ -109,7 +122,7 @@
                         <a href="login">
                             <div class="circle">
                                 <div class="circle-content">
-                                    <img src="images/cat2_chinese.png" alt="Category 2" style="border:4px solid #42251D;"><br>
+                                    <img src="images/cat2_chinese.png" alt="Category 2" style="border:4px solid white;"><br>
                                     <button class="btn swiggy-button">Chinese</button>
                                 </div>
                             </div>
@@ -119,7 +132,7 @@
                         <a href="login">
                             <div class="circle">
                                 <div class="circle-content">
-                                    <img src="images/cat3_chaats.png" alt="Category 3" style="border:4px solid #42251D;"><br>
+                                    <img src="images/cat3_chaats.png" alt="Category 3" style="border:4px solid white;"><br>
                                     <button class="btn swiggy-button">Chaats</button>
                                 </div>
                             </div>
@@ -129,24 +142,24 @@
                         <a href="login">
                             <div class="circle">
                                 <div class="circle-content">
-                                    <img src="images/special2.png" alt="Category 4" style="border:4px solid #42251D;"><br>
+                                    <img src="images/special2.png" alt="Category 4" style="border:4px solid white;"><br>
                                     <button class="btn swiggy-button">Icecream</button>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
-                <a class="see-more text-center" href="login" style="color:#42251D;text-decoration:underline;">See More</a>
+                <a class="see-more text-center" href="login" style="color:white;text-decoration:underline;">See More</a>
             </div>
         </section>
         <!--Featured categories ends-->
 
-        <!--Search option-->
+        <!--Search option--
         <div class="container" id="fade-in-section">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 style="color:#42251D;font-weight:bold;font-size:36px;">Hungry?</h1>
-                    <p style="color:#42251D;">Order at any time, anywhere</p>
+                    <h1 style="color:white;font-weight:bold;font-size:36px;">Hungry?</h1>
+                    <p style="color:white;">Order at any time, anywhere</p>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control swiggy-input" placeholder="Enter your choice">
                         <div class="input-group-append">
@@ -160,8 +173,8 @@
                         <div class="overlay-text">
                             <h1 style="font-weight:bold;font-size:36px;">Today's special</h1>
                             <div class="special-images mt-4">
-                                <img src="images/special.png" alt="special img" style="border-radius:50%;width:150px;height:150px;border:4px solid #FDDA80">
-                                <img src="images/special2.png" alt="special img" style="border-radius:50%;width:150px;height:150px;border:4px solid #FDDA80">
+                                <img src="images/special.png" alt="special img" style="border-radius:50%;width:150px;height:150px;border:4px solid white">
+                                <img src="images/special2.png" alt="special img" style="border-radius:50%;width:150px;height:150px;border:4px solid white">
                             </div>
                             <button class="btn swiggy-button mt-4" style="border:2px solid #FDDA80;">Order</button>
                         </div>
@@ -169,18 +182,17 @@
                 </div>
             </div>
         </div>
-        <!--Search option ends-->
+        --Search option ends-->
 
         <!--Food section-->
         <div class="container food-section mt-4" >
-            <h1 style="color:#42251D;font-size:36px;">Food Section</h1>
+            <h1 style="color:white;font-size:36px;">Food Section</h1>
             <div class="row mt-4">
                 <div class="col-md-3">
                     <div class="food-box">
                         <img src="order/idli.png" alt="Image 1" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Idli</p>
                         <button class="btn swiggy-button">₹20.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -188,7 +200,6 @@
                         <img src="order/masaldosa.png" alt="Image 2" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Masala Dosa</p>
                         <button class="btn swiggy-button">₹43.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -196,7 +207,6 @@
                         <img src="order/masalpuri.png" alt="Image 3" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Masal Puri</p>
                         <button class="btn swiggy-button">₹35.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -204,7 +214,6 @@
                         <img src="order/noodles.png" alt="Image 4" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Noodles</p>
                         <button class="btn swiggy-button">₹70.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
             </div>
@@ -214,7 +223,6 @@
                         <img src="order/orangejuice.png" alt="Image 1" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Orange Juice</p>
                         <button class="btn swiggy-button">₹43.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -222,7 +230,6 @@
                         <img src="order/panipuri.png" alt="Image 2" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Pani Puri</p>
                         <button class="btn swiggy-button">₹43.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -230,7 +237,6 @@
                         <img src="order/parota.png" alt="Image 3" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Parota</p>
                         <button class="btn swiggy-button">₹57.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -238,7 +244,6 @@
                         <img src="order/pavbhaji.png" alt="Image 4" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Pav Bhaji</p>
                         <button class="btn swiggy-button">₹42.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
             </div>
@@ -248,7 +253,6 @@
                         <img src="order/puri.png" alt="Image 1" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Poori Bhaji</p>
                         <button class="btn swiggy-button">₹35.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -256,7 +260,6 @@
                         <img src="order/samosa.png" alt="Image 2" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Samosa</p>
                         <button class="btn swiggy-button">₹43.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -264,7 +267,6 @@
                         <img src="order/vada.png" alt="Image 3" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Vada</p>
                         <button class="btn swiggy-button">₹20.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -272,7 +274,6 @@
                         <img src="order/vadapav.png" alt="Image 4" class="rounded-circle img-fluid">
                         <p style="color:#42251D;font-weight:bold;">Vada Pav</p>
                         <button class="btn swiggy-button">₹20.00</button>
-                        <button class="btn swiggy-button">Order</button>
                     </div>
                 </div>
             </div>
@@ -282,7 +283,7 @@
 
         <!--Testimonials-->
         <div class="container">
-            <h1 class="mt-4" style="color:#42251D;font-size:36px;">Testimonials</h1>
+            <h1 class="mt-4" style="color:white;font-size:36px;">Testimonials</h1>
             <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
@@ -357,8 +358,35 @@
         </div>
         <!--Testimonials ends-->
 
+        <!-- About Us section -->
+        <section class="bg-dark text-light p-3 about-us mt-4" >
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6">
+                    <h1 style="color:white;font-size:36px;">About Us</h1>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p style="color:white;">
+                        CampusBite was crafted with passion and dedication by our team. Let us introduce ourselves:
+                    </p>
+                    <ul style="color:white;">
+                        <li>Avisha V Shetty - 4NM21CS041</li>
+                        <li>Dhanya - 4NM21CS055</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center" style="color:white;font-size:24px;">Under the Guidance of Dr. Pradeep Kanchan<p class="text-center">Assistant Professor Gd-III</p> NMAM Institute of Technology</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us section ends -->
+
+
         <!--Footer section-->
-        <footer class="bg-dark text-light p-3 mt-4">
+        <footer class="bg-dark text-light p-3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
