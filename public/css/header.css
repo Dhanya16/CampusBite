@@ -40,3 +40,6 @@ a:hover{
 .nav-item {
     margin-right: 20px; 
 }
+.dropdown-menu a.dropdown-item:hover {
+    transform: scale(1) !important;
+}

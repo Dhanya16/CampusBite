@@ -5,16 +5,17 @@
 }
 
 .swiggy-button {
-    background-color: #42251D;
-    color: #FDDA80;
-    border: none;
+    background-color:#FDDA80 ;
+    color: #42251D;
+    border: 2px solid #42251D;
     border-radius: 5px;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .swiggy-button:hover {
-    background-color: #FDDA80;
-    color: #42251D;
+    background-color: #42251D;
+    color: #FDDA80;
     font-weight: bold;
 }
 .light-button {
