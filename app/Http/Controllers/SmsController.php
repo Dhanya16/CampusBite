@@ -9,7 +9,7 @@ class SmsController extends Controller
 {
     public function sendSms(Request $request)
     {
-        $accountSid = 'AC82b795232ade14845edde25842582477';
+        $accountSid = env('TWILIO_SID');
         $authToken = '5e5487ccddfaebfa13593527c655f48e';
         $twilioNumber = '+19084184785';
 
