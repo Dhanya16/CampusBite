@@ -10,7 +10,7 @@ class SmsController extends Controller
     public function sendSms(Request $request)
     {
         $accountSid = env('TWILIO_SID');
-        $authToken = '5e5487ccddfaebfa13593527c655f48e';
+        $authToken = env('AUTH_TOEKN');
         $twilioNumber = '+19084184785';
 
         $recipients = ['+917483444873']; // Add the phone numbers you want to send SMS to
